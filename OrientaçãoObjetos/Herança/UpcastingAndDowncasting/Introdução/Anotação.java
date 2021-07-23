@@ -1,0 +1,16 @@
+package JavaCore.Herança.UpcastingAndDowncasting.Introdução;
+
+
+/*
+• Upcasting
+    Casting da subclasse para superclasse
+    Uso comum: polimorfismo
+
+• Downcasting
+    Casting da superclasse para subclasse
+    Palavra instanceof
+    Uso comum: métodos que recebem parâmetros genéricos (ex: Equals)
+ */
+
+public class Anotação {
+}
