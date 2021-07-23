@@ -1,2 +1,3 @@
 # Estudos-em-Java
-Estudando a linguagem Java
+
+Esse repositório contém estudos e exercicios utilizando a linguagem Java. Aqui se encontra um pouco do meu conhecimento.
