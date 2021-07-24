@@ -15,7 +15,7 @@ Herança é uma associação entre classes (e não entre objetos)
 • class A extends B
 */
 
-public class Anotação {
+public class Anotacao {
     public static void main(String[] args) {
     }
 }

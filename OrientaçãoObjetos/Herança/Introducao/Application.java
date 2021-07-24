@@ -1,4 +1,4 @@
-package JavaCore.Herança.Introdução;
+package JavaCore.Heranca.Introducao;
 public class Application {
     public static void main(String[] args) {
         Conta acc = new Conta(1000, "João", 0.0);
@@ -9,7 +9,7 @@ public class Application {
 
         Conta acc1 = cemp;
         Conta acc2 = new ContaEmpresarial(1002, "Jose", 0.0, 200);
-        Conta acc3 = new ContaPoupança(1003, "Francisco", 0.0, 0.01);
+        Conta acc3 = new ContaPoupanca(1003, "Francisco", 0.0, 0.01);
 
         // DOWNCASTING
         ContaEmpresarial acc4 = (ContaEmpresarial) acc2;
@@ -21,8 +21,8 @@ public class Application {
             acc5.loan(200);
             System.out.println("Emprestimo");
         }
-        if (acc3 instanceof ContaPoupança){
-            ContaPoupança acc5 = (ContaPoupança)acc3;
+        if (acc3 instanceof ContaPoupanca){
+            ContaPoupanca acc5 = (ContaPoupanca)acc3;
             acc5.updateBalance();
             System.out.println("Update!");
         }

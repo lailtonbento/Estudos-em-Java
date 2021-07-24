@@ -1,13 +1,13 @@
-package JavaCore.Herança.Introdução;
+package JavaCore.Heranca.Introducao;
 
-public class ContaPoupança extends Conta {
+public class ContaPoupanca extends Conta {
     private double interestRate;
 
-    public ContaPoupança () {
+    public ContaPoupanca () {
         super();
     }
 
-    public ContaPoupança(int number, String holder, double balance, double interestRate) {
+    public ContaPoupanca(int number, String holder, double balance, double interestRate) {
         super(number, holder, balance);
         this.interestRate = interestRate;
     }

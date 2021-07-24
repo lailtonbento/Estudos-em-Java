@@ -1,4 +1,4 @@
-package JavaCore.Herança.Introdução;
+package JavaCore.Heranca.Introducao;
 
 public class ContaEmpresarial extends Conta {
     private double loanLimit;

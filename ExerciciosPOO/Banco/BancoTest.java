@@ -12,8 +12,8 @@ public class BancoTest {
         System.out.println("Nome do titular: ");
         String titular = leia.next();
         System.out.println("Deseja fazer o deposito inicial ? (S/N)");
-        char opçao = leia.next().charAt(0);
-        if (opçao == 'S' || opçao == 's') {
+        char opcao = leia.next().charAt(0);
+        if (opcao == 'S' || opcao == 's') {
             System.out.println("Digite o valor do deposito inicial: ");
             double depositoInicial = leia.nextDouble();
             banco = new BancoClass(numeroConta, titular, depositoInicial);
@@ -27,8 +27,8 @@ public class BancoTest {
         banco.deposito(valorDeposito);
         System.out.println(banco.conta());
         System.out.println("Deseja fazer um saque ? (S/N)");
-        char opçao1 = leia.next().charAt(0);
-        if (opçao1 == 'S' || opçao == 's'){
+        char opcao1 = leia.next().charAt(0);
+        if (opcao1 == 'S' || opcao == 's'){
             System.out.println("Valor: ");
             double valorSaque = leia.nextDouble();
             banco.saque(valorSaque);

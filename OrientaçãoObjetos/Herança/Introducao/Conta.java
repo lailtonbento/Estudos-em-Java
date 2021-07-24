@@ -1,4 +1,4 @@
-package JavaCore.Herança.Introdução;
+package JavaCore.Heranca.Introducao;
 
 public class Conta {
     private int number;
