@@ -2,12 +2,15 @@ package JavaCore.DBlocodeInicialização.Classes;
 
 public class Cliente {
     private int[] parcelas;
+    // 1 - Alocado espaco em eoria pro objeto
+    // Cada atributo de classe é criado e inicializado com valores default
+    // Bloco de inializacao é executado
+    // Construtor é executado
 
     {
         parcelas = new int[100];
-        for (int i = 1; i <= 100; i++) {
-            parcelas[i - 1] = i;
-            System.out.println(i);
+        for (int parcela : parcelas) {
+            System.out.println(parcela);
         }
     }
 

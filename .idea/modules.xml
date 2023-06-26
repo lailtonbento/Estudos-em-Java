@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Estudos-em-Java.iml" filepath="$PROJECT_DIR$/Estudos-em-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrientaçãoObjetos/Heranca/Heranca.iml" filepath="$PROJECT_DIR$/OrientaçãoObjetos/Heranca/Heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrientaçãoObjetos/OrientaçãoObjetos.iml" filepath="$PROJECT_DIR$/OrientaçãoObjetos/OrientaçãoObjetos.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,5 +1,7 @@
 package JavaCore.BSobrecargaMetodos.Classes;
 
+import lombok.Getter;
+
 public class Funcionario {
     private String nome;
     private String cpf;

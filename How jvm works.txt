@@ -1,0 +1,3 @@
+Application.java --> (java compiler) ---> Application.class (byte code) --> JVM --> Windows, Linux, MacOS
+
+use Java Development Kit or Java Runtime Enviroment

@@ -1,6 +1,5 @@
 package JavaCore.Aintrodução.IntroduçãoClasses.Classes;
-
-public class Computador {
+ public class Computador {
     public String placaMae;
     public String processador;
     public String memoria;
